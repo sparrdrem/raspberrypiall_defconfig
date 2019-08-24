@@ -5,6 +5,7 @@ raspberrypiall_defconfig is a modified script that builds an ARMMP system for th
 - board/raspberrypi/genimage-raspberrypimodern.cfg
 - board/raspberrypi/readme-sparrdrem.txt
 - board/raspberrypiall.ln
+- board/raspberrypilegacy.ln
 - board/raspberrypimodern.ln
 - config/raspberrypiall_defconfig
 - config/raspberrypilegacy_defconfig
