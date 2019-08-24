@@ -1,5 +1,5 @@
 BR2_arm=y
-BR2_cortex_a53=y
+BR2_cortex_a7=y
 BR2_ARM_FPU_NEON_VFPV4=y
 
 BR2_TOOLCHAIN_BUILDROOT_CXX=y
@@ -16,7 +16,7 @@ BR2_LINUX_KERNEL_DEFCONFIG="bcm2709"
 
 # Build the DTB from the kernel sources
 BR2_LINUX_KERNEL_DTS_SUPPORT=y
-BR2_LINUX_KERNEL_INTREE_DTS_NAME="bcm2710-rpi-3-b bcm2710-rpi-3-b-plus bcm2710-rpi-cm3"
+BR2_LINUX_KERNEL_INTREE_DTS_NAME="bcm2709-rpi-2-b bcm2710-rpi-3-b bcm2710-rpi-3-b-plus bcm2710-rpi-cm3"
 
 BR2_PACKAGE_RPI_FIRMWARE=y
 
@@ -30,6 +30,5 @@ BR2_TARGET_ROOTFS_EXT2=y
 BR2_TARGET_ROOTFS_EXT2_4=y
 BR2_TARGET_ROOTFS_EXT2_SIZE="120M"
 # BR2_TARGET_ROOTFS_TAR is not set
-BR2_ROOTFS_POST_BUILD_SCRIPT="board/raspberrypi3/post-build.sh"
-BR2_ROOTFS_POST_IMAGE_SCRIPT="board/raspberrypi3/post-image.sh"
-BR2_ROOTFS_POST_SCRIPT_ARGS="--add-pi3-miniuart-bt-overlay"
+BR2_ROOTFS_POST_BUILD_SCRIPT="board/raspberrypimodern/post-build.sh"
+BR2_ROOTFS_POST_IMAGE_SCRIPT="board/raspberrypimodern/post-image.sh"
