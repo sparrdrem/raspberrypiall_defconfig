@@ -1,7 +1,6 @@
 BR2_arm=y
 BR2_arm1176jzf_s=y
 BR2_ARM_EABIHF=y
-BR2_ARM_FPU_NEON_VFPV4=y
 
 BR2_SYSTEM_DHCP="eth0"
 
